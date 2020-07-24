@@ -67,9 +67,9 @@
 
 #sidenav .sidenav-info{
     background-color: rgba(255, 255, 255, 0.5);
-    position: absolute;
-    right: 20%;
-    bottom: 20%;
+    position: relative;
+    right: -40%;
+    bottom: -30%;
     color: black;
     font-size: 1.2em;
     font-weight: 400;
@@ -78,6 +78,7 @@
     border-color:rgba(255, 255, 255, 0.5);
     transition: box-shadow 0.2s;
     border-radius: 5px;
+    width:22rem;
 }
 
 #sidenav .sidenav-info:hover{

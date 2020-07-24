@@ -1,5 +1,6 @@
 $(document).ready(function(){
     $(".qn").click(function(){
-        $(".answer").slideToggle("fast");
+        $(this).siblings(".answer").slideToggle("fast");
+        $(this).parent().toggleClass("open-qn");
     });
 });
