@@ -176,7 +176,7 @@ html{
     }
 
     .intro .intro-body h1 span{
-        font-size:0.9em;
+        font-size:0.8em;
     }
 
     .img-body{
@@ -189,6 +189,7 @@ html{
 
     .links{
         bottom: -100%;
+        right:-70%;
     }
 
     .links a {
@@ -223,11 +224,15 @@ html{
     #sidenav .sidenav-info{
         right:-10%;
         width:15rem;
-        font-size:0.8em;
+        font-size:0.7em;
+    }
+
+    #sidenav a{
+        font-size:30px;
     }
 
     .page-links a{
-        left:80%;
+        left:-80%;
     }
 } 
 
