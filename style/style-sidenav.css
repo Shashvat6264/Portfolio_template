@@ -1,0 +1,85 @@
+.sidenav-open{
+    cursor: pointer;
+}
+
+#sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #e66f00;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    box-shadow: -5px 0px 5px;
+}
+  
+#sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    display: block;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+#sidenav a:hover {
+    color: #ffbb7c;
+}
+  
+#sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    transition: transform 0.5s;
+}
+
+#sidenav .closebtn:hover{
+    transform:rotate(90deg) translate(-10px, -10px);
+}
+
+.navlink{
+    transform: translate(500px,0px);
+    opacity: 0;
+    transition: transform 1s, opacity 1s, color 0.2s;
+}
+
+.navlink:nth-child(2){
+    transition-delay: 0.1s;
+}
+
+.navlink:nth-child(3){
+    transition-delay: 0.2s;
+}
+
+.navlink:nth-child(4){
+    transition-delay: 0.3s;
+}
+
+.navlink:nth-child(5){
+    transition-delay: 0.4s;
+}
+
+#sidenav .sidenav-info{
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    right: 20%;
+    bottom: 20%;
+    color: black;
+    font-size: 1.2em;
+    font-weight: 400;
+    padding: 1rem;
+    box-shadow: -3px 3px 10px black;
+    border-color:rgba(255, 255, 255, 0.5);
+    transition: box-shadow 0.2s;
+    border-radius: 5px;
+}
+
+#sidenav .sidenav-info:hover{
+    box-shadow: -7px 7px 10px;
+}
