@@ -187,11 +187,6 @@ html{
         z-index: 50;
     }
 
-    .links{
-        bottom: -100%;
-        right:-70%;
-    }
-
     .links a {
         color: white;
     }
@@ -213,6 +208,11 @@ html{
         right:-17%;
         width:18rem;
         font-size: 0.9em;
+    }
+    
+    .links{
+        bottom: -100%;
+        right:-70%;
     }
 }
 
@@ -236,4 +236,9 @@ html{
     }
 } 
 
+@media only screen and (max-width: 430px){
+    .intro .intro-body h1 span{
+        font-size:0.7em;
+    }
+}
 
