@@ -113,6 +113,8 @@ html{
 .page-container{
     padding-top:5rem;
     height: 100vh;
+    z-index: -100;
+    position: relative;
 }
 
 .page-container a{
@@ -140,7 +142,8 @@ html{
     color: white;
     transition: font-size 0.2s ease;
     position: relative;
-    left: 90%;
+    /* left: 90%; */
+    float: right;
 }
 
 @keyframes blurin{
