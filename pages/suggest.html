@@ -1,8 +1,27 @@
 <html>
     <head>
         <title>Suggest</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" >
+        <link rel="stylesheet" href="../style/style.css">
+        <link rel="stylesheet" href="../style/style-form.css">
     </head>
     <body>
-        <p>Suggestions</p>
+        <div class="blurin page">
+            <div class="container page-container">
+                <h1>Suggestions</h1>
+                <div class="page-body">
+                    <input type = "text" name="name" class="question" required autocomplete="off">
+                    <label for = "name"><span>Roll Number</span></label>
+                    <input type = "text" name = "name" class="question" required autocomplete="off">
+                    <label for = "name"><span>Email ID</span></label>
+                    <textarea type="textbox" name="suggest">Suggestions</textarea>
+                    <!-- <label for="suggest"><span>Suggestion</span></label> -->
+                    <button class = "btn btn-primary btn-lg btn-block">Submit</button>
+                </div>
+                <div class="page-links">
+                    <a href="../index.html"><span style="margin:0px; padding: 0px; display: inline;">&#8592;</span>Home</a>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
