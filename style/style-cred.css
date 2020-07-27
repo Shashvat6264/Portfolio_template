@@ -73,6 +73,11 @@ body{
 @media only screen and (max-width: 1024px){
     .card{
         width:100%;
+        height: 18vh;
+    }
+
+    .card-title{
+        font-size: 2vh;
     }
 
     .row{
