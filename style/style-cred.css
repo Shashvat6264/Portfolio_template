@@ -59,6 +59,10 @@ body{
     box-shadow: 7px 7px 10px black;
 }
 
+.card-body{
+    max-width: 30rem;
+}
+
 .page-container{
     text-align: center;
 }
@@ -80,7 +84,7 @@ body{
     }
 
     .card-title{
-        font-size: 2vh;
+        font-size: 1.8vh;
     }
 
     .card-text{
